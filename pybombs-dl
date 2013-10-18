@@ -3,6 +3,7 @@
 # Script by Phr34kz
 # Add more lines below if any fixes or addons are available
 #
+SOURCE="${BASH_SOURCE[0]}"
 
 echo -n "\n\nDo you want to remove your previous install? Y for Yes. N for No: "
 read remove1
@@ -28,25 +29,25 @@ if [[ $cloning =~ [yY](es)* ]]; then
 	sleep 3
 
 	# Copy recipe fixes
-	cp recipe-fix/armadillo.lwr /pybombs/recipes/armadillo.lwr
-	cp recipe-fix/boost.lwr /pybombs/recipes/boost.lwr
-	cp recipe-fix/gnuradio.lwr /pybombs/recipes/gnuradio.lwr
-	cp recipe-fix/swig.lwr /pybombs/recipes/swig.lwr
-	cp recipe-fix/uhd.lwr /pybombs/recipes/uhd.lwr
-	cp recipe-fix/cmake.lwr /pybombs/recipes/cmake.lwr
-	cp recipe-fix/gqrx.lwr /pybombs/recipes/gqrx.lwr
+	cp $SOURCE/recipe-fix/armadillo.lwr /pybombs/recipes/armadillo.lwr
+	cp $SOURCE/recipe-fix/boost.lwr /pybombs/recipes/boost.lwr
+	cp $SOURCE/recipe-fix/gnuradio.lwr /pybombs/recipes/gnuradio.lwr
+	cp $SOURCE/recipe-fix/swig.lwr /pybombs/recipes/swig.lwr
+	cp $SOURCE/recipe-fix/uhd.lwr /pybombs/recipes/uhd.lwr
+	cp $SOURCE/recipe-fix/cmake.lwr /pybombs/recipes/cmake.lwr
+	cp $SOURCE/recipe-fix/gqrx.lwr /pybombs/recipes/gqrx.lwr
 	#cp /recipe-fix/gr-smartnet.lwr /pybombs/recipes/gr-smartnet.lwr
 
 	# Copy Addons
-	cp /recipe-fix/pysstv.lwr /pybombs/recipes/pysstv.lwr
-	cp /recipe-fix/slowrx.lwr /pybombs/recipes/slowrx.lwr
+	cp $SOURCE/recipe-fix/pysstv.lwr /pybombs/recipes/pysstv.lwr
+	cp $SOURCE/recipe-fix/slowrx.lwr /pybombs/recipes/slowrx.lwr
 
 	# Copy startup script
-	cp install.sh /pybombs/install.sh
+	cp $SOURCE/install.sh /pybombs/install.sh
 
 	# Copy templates
-	cp templates-fix/cmake.lwt /pybombs/templates/cmake.lwt
-	cp templates-fix/autoconf.lwt /pybombs/templates/autoconf.lwt
+	cp $SOURCE/templates-fix/cmake.lwt /pybombs/templates/cmake.lwt
+	cp $SOURCE/templates-fix/autoconf.lwt /pybombs/templates/autoconf.lwt
 else
 	echo -en "Not cloning\n\n"
 fi

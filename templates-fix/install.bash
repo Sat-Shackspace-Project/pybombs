@@ -35,6 +35,8 @@ echo "cmakebuildtype = RelWithDebInfo" >> config.dat
 }
 
 if [ ! -f config.dat ]; then
+	echo "config.dat exists! continuing"
+	sleep 3
 	configuring
 fi
 

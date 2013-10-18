@@ -1,13 +1,13 @@
 #!/bin/bash
 clear
 
-echo "----------------------------------------------------------------"
-echo "																  "
-echo "                  {[   Evilzone Network   ]}                    "
-echo "																  "
-echo "						 Phr34kz//Flacodev						  "
-echo "																  "
-echo "----------------------------------------------------------------"
+echo "----------------------------------------"
+echo "                                        "
+echo "        {[   Evilzone Network   ]}      "
+echo "                                        "
+echo "            Phr34kz//Flacodev           "
+echo "                                        "
+echo "----------------------------------------"
 sleep 1
 
 configuring()

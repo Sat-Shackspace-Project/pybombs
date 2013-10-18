@@ -1,0 +1,38 @@
+#!/bin/bash
+
+cd Desktop
+
+# Remove Previous Packages
+
+rm -rf /pybombs
+rm -rf /gnuradio
+
+# Make and clone
+
+mkdir /gnuradio
+git clone git://github.com/pybombs/pybombs
+
+# Copy recipe fixes
+
+cp /recipe-fix/armadillo.lwr /pybombs/recipes/armadillo.lwr
+cp /recipe-fix/boost.lwr /pybombs/recipes/boost.lwr
+cp /recipe-fix/gnuradio.lwr /pybombs/recipes/gnuradio.lwr
+cp /recipe-fix/swig.lwr /pybombs/recipes/swig.lwr
+cp /recipe-fix/uhd.lwr /pybombs/recipes/uhd.lwr
+cp /recipe-fix/cmake.lwr /pybombs/recipes/cmake.lwr
+cp /recipe-fix/gqrx.lwr /pybombs/recipes/gqrx.lwr
+#cp /recipe-fix/gr-smartnet.lwr /pybombs/recipes/gr-smartnet.lwr
+
+# Copy Addons
+
+cp /recipe-fix/pysstv.lwr /pybombs/recipes/pysstv.lwr
+cp /recipe-fix/slowrx.lwr /pybombs/recipes/slowrx.lwr
+
+# Copy startup script
+
+cp ./install.sh /pybombs/install.sh
+
+# Copy templates
+
+cp /templates-fix/cmake.lwt /pybombs/templates/cmake.lwt
+cp /templates-fix/autoconf.lwt /pybombs/templates/autoconf.lwt

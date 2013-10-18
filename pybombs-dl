@@ -21,7 +21,7 @@ read cloning
 
 if [[ $cloning =~ [yY](es)* ]]; then
 	# Make and clone
-	mkdir /gnuradio
+	mkdir gnuradio
 	git clone git://github.com/pybombs/pybombs
 
 	# Copy recipe fixes

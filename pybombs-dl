@@ -3,7 +3,7 @@
 # Add more lines below if any fixes or addons are available
 #
 
-echo -n "Do you want to remove your previous install? Y for Yes: "
+echo -n "Do you want to remove your previous install? Y for Yes. N for No: "
 read remove1
 
 if [ "$remove1" == "Yy" ]; then
@@ -14,7 +14,7 @@ else
 	echo -en "Not removing\n\n"
 fi
 
-echo -n "Do you want clone pybombs and copy all fixes? Y for Yes: "
+echo -n "Do you want clone pybombs and copy all fixes? Y for Yes. N for No: "
 read cloning
 
 if [ "$cloning" == "Yy" ]; then

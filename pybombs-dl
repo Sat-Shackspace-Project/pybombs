@@ -7,6 +7,10 @@
 echo""
 echo -n "Do you want to remove your previous install? Y for Yes. N for No: "
 read remove1
+echo""
+echo -n "Do you want clone pybombs and copy all fixes? Y for Yes. N for No: "
+read cloning
+
 
 if [[ $remove1 =~ [yY](es)* ]]; then
 	# Remove Previous Packages
@@ -15,11 +19,6 @@ if [[ $remove1 =~ [yY](es)* ]]; then
 else
 	echo -en "Not removing\n\n"
 fi
-
-clear
-echo""
-echo -n "Do you want clone pybombs and copy all fixes? Y for Yes. N for No: "
-read cloning
 
 if [[ $cloning =~ [yY](es)* ]]; then
 	# Make and clone

@@ -24,8 +24,8 @@ if [[ $cloning =~ [yY](es)* ]]; then
 	mkdir gnuradio
 	git clone git://github.com/pybombs/pybombs
 
-	# wait for 5 Seconds
-	sleep 5
+	# wait for 3 Seconds
+	sleep 3
 
 	# Copy recipe fixes
 	cp /recipe-fix/armadillo.lwr /pybombs/recipes/armadillo.lwr

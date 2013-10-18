@@ -5,7 +5,8 @@
 #
 SOURCE="${BASH_SOURCE[0]}"
 
-echo -n "\n\nDo you want to remove your previous install? Y for Yes. N for No: "
+echo""
+echo -n "Do you want to remove your previous install? Y for Yes. N for No: "
 read remove1
 
 if [[ $remove1 =~ [yY](es)* ]]; then
@@ -17,7 +18,8 @@ else
 fi
 
 clear
-echo -n "\n\nDo you want clone pybombs and copy all fixes? Y for Yes. N for No: "
+echo""
+echo -n "Do you want clone pybombs and copy all fixes? Y for Yes. N for No: "
 read cloning
 
 if [[ $cloning =~ [yY](es)* ]]; then

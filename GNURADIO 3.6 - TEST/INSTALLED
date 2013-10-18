@@ -1,0 +1,99 @@
+                      apr    installed        deb                      
+                  aprutil    installed        deb                      
+                armadillo    installed        deb                      
+                      atk    installed        deb                      
+                    bison    installed        deb                      
+                     blas    installed        deb                      
+                    boost    installed  inventory 15cb8c0803064faef0c4ddf5bc5ca27 wget://http://downloads.sourceforge.net/project/boost/boost/1.54.0/boost_1_54_0.tar.bz2
+                    cairo    installed        deb                      
+                  cheetah    installed        deb                      
+                    cmake    installed        deb                      
+                  cppunit    installed        deb                      
+                     curl    installed        deb                      
+                     db48    installed        deb                      
+                    expat    installed        deb                      
+                     faac    installed        deb                      
+                     faad    installed        deb                      
+                      ffi    installed        deb                      
+                     fftw    installed        deb                      
+                     flex    installed        deb                      
+               fontconfig    installed        deb                      
+                 freetype    installed        deb                      
+                      gcc    installed        deb                      
+               gdk-pixbuf    installed        deb                      
+                   gflags    installed        deb                      
+                 gfortran    installed        deb                      
+                      git    installed        deb                      
+                     glib    installed        deb                      
+                     glog    installed        deb                      
+                      gmp    installed  inventory 00a7054b0b5e1d3490c4c31f692c771 wget://http://archive.ubuntu.com/ubuntu/pool/main/g/gmp/gmp_4.3.2+dfsg.orig.tar.gz
+    gobject-introspection    installed        deb                      
+               gperftools    installed  inventory 13f6e8961bc6a26749783137995786b wget://http://gperftools.googlecode.com/files/gperftools-2.0.tar.gz
+                 graphviz    installed        deb                      
+                      gsl    installed        deb                      
+                    gtest    installed        deb                      
+                     gtk2    installed        deb                      
+                      ice    installed        deb                      
+                   lapack    installed        deb                      
+                  libbzip    installed        deb                      
+                  libjpeg    installed        deb                      
+                  libpcap    installed        deb                      
+                   libpng    installed        deb                      
+                  libtiff    installed        deb                      
+                   libusb    installed        deb                      
+                   libxml    installed        deb                      
+                  libxslt    installed        deb                      
+                  log4cxx    installed        deb                      
+                     lxml    installed        deb                      
+                     make    installed        deb                      
+                     mcpp    installed        deb                      
+                      mpc    installed        deb                      
+                     mpfr    installed        deb                      
+                    numpy    installed        deb                      
+                    pango    installed        deb                      
+                     perl    installed        deb                      
+                   pixman    installed        deb                      
+               pulseaudio    installed        deb                      
+                  pycairo    installed        deb                      
+                pygobject    installed        deb                      
+                    pygtk    installed        deb                      
+                    pyqt4    installed        deb                      
+                   pyqwt5    installed        deb                      
+                   python    installed        deb                      
+                      qt4    installed        deb                      
+                     qwt5    installed        deb                      
+                    scipy    installed        deb                      
+               setuptools    installed        deb                      
+                      sip    installed        deb                      
+               subversion    installed        deb                      
+                     swig    installed        deb                      
+                  tornado    installed  inventory c738af97c31dd70f41f6726cf096894 wget://https://github.com/downloads/facebook/tornado/tornado-2.4.tar.gz
+                     wget    installed        deb                      
+                 wxpython    installed        deb                      
+                      x11    installed        deb                      
+                   zeromq    installed  inventory 39af2d41e3fb744b98d7999e291e05d wget://http://download.zeromq.org/zeromq-3.2.4.tar.gz
+                 airprobe    installed  inventory 99de0b0ce9ac711eaca1b3d8951e3bfc606306d8 git://git://svn.berlin.ccc.de/airprobe
+                 gnuradio    installed  inventory 4a83a1c5881a5dc8aa7ff4abdea1261ce21ab7c0 git://https://github.com/osh/gnuradio.git
+             gr-air-modes    installed  inventory 3e9854f33740bd01fc33d238bc2472341ed25be9 git://https://github.com/bistromath/gr-air-modes.git
+                gr-compat    installed  inventory eab376be1d241a651ed41a2bedbe07213ad43b06 git://https://github.com/osh/grcompat.git
+           gr-eventstream    installed  inventory f5225bfd3ce7a94e5f98e30f4d0b45708747c6b8 git://https://github.com/osh/gr-eventstream.git
+            gr-fcdproplus    installed  inventory 4f1deb5b0c5e6c712ec7b2027cedcd31de46c08b git://https://github.com/dl1ksv/gr-fcdproplus.git
+           gr-ieee-802154    installed  inventory 5f91fab48b5247e8366548bba963002a99a1b9de git://https://github.com/bastibl/gr-ieee802-15-4.git
+                 gr-iqbal    installed  inventory a1bca1f9ba65714454905b92e57d8e37ff7ddcbe git://git://git.osmocom.org/gr-iqbal
+                  gr-ldpc    installed  inventory 0e18c2205a608c02b5fa9f9d3b8a5b3540b38525 git://https://github.com/manuts/gr-ldpc.git
+              gr-multimon    installed  inventory c2374b90a192f44a6d5593136560101cfd5e67ed git://https://github.com/freqmod/gr-multimon.git
+               gr-osmosdr    installed  inventory 8843b612dba9671cff4a1e2e3b1abf7ec61c2b58 git://git://git.osmocom.org/gr-osmosdr
+           gr-packetradio    installed  inventory d4ace57c1b738982c6548f2bf8dad8dfea5a9f56 git://https://github.com/balint256/gr-packetradio.git
+                gr-pocsag    installed  inventory                    9 svn://https://www.cgran.org/cgran/projects/gr-pocsag/trunk
+                   gr-rds    installed  inventory 83bc203d8d68168f6305b9af994e7ab2e82d0330 git://https://github.com/balint256/gr-rds.git
+             gr-zmqblocks    installed  inventory e534e9d484ed613866a06c1b9760d823ebf2aa8e git://https://github.com/iohannez/gr-zmqblocks.git
+                   hackrf    installed  inventory 0de2298d7702647a03beb12e10ea1694ad3c4d12 git://https://github.com/mossmann/hackrf.git
+                      kal    installed  inventory d111e1a5d171139fd748763d012786af0752e984 git://http://github.com/ttsou/kalibrate-uhd
+              libosmo-dsp    installed  inventory 59e29c2043cc8bbc14fc7f483aadea2a7b7d0f56 git://git://git.osmocom.org/libosmo-dsp
+                 osmo-sdr    installed  inventory cd37e9fab1ed6fc3ba9f0de55f96945099efcd1a git://git://git.osmocom.org/osmo-sdr.git
+                      pmc    installed  inventory a7c4df2b9d3707bc3e383164e7a6855c1ca9beb6 git://https://github.com/guruofquality/PMC.git
+                  rtl-sdr    installed  inventory cb8907dd4e0283a3bbe30c9240666b13bd29a7c8 git://git://git.osmocom.org/rtl-sdr
+   simple_radio_astronomy    installed  inventory                    9 svn://https://www.cgran.org/cgran/projects/simple_ra/trunk
+                   theron    installed  inventory e31d0a51e9ea245e7a981365fb58023d24e8649d git://https://github.com/guruofquality/Theron.git
+                      uhd    installed  inventory de4ce9ea2858045f01ac34d1eba71e14f46ca858 git://git://github.com/EttusResearch/uhd.git
+                wireshark    installed  inventory cd7fedd0a67df5ad4905fd356efdc1e wget://http://wiresharkdownloads.riverbed.com/wireshark/src/all-versions/wireshark-1.10.2.tar.bz2

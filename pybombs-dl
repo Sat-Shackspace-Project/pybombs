@@ -6,7 +6,7 @@
 echo -n "Do you want to remove your previous install? Y for Yes. N for No: "
 read remove1
 
-if [ "$remove1" == "Yy" ]; then
+if [[ $remove1 =~ [yY](es)* ]]; then
 	# Remove Previous Packages
 	rm -rf /pybombs
 	rm -rf /gnuradio
@@ -17,7 +17,7 @@ fi
 echo -n "Do you want clone pybombs and copy all fixes? Y for Yes. N for No: "
 read cloning
 
-if [ "$cloning" == "Yy" ]; then
+if [[ $cloning =~ [yY](es)* ]]; then
 	# Make and clone
 	mkdir /gnuradio
 	git clone git://github.com/pybombs/pybombs

@@ -9,8 +9,8 @@ read remove1
 
 if [[ $remove1 =~ [yY](es)* ]]; then
 	# Remove Previous Packages
-	rm -rf /pybombs
-	rm -rf /gnuradio
+	rm -rf pybombs
+	rm -rf gnuradio
 else
 	echo -en "Not removing\n\n"
 fi

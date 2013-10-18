@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cd Desktop
-
 # Remove Previous Packages
 
 rm -rf /pybombs

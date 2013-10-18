@@ -15,6 +15,7 @@ else
 	echo -en "Not removing\n\n"
 fi
 
+clear
 echo -n "Do you want clone pybombs and copy all fixes? Y for Yes. N for No: "
 read cloning
 

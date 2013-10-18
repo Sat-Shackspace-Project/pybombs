@@ -42,7 +42,7 @@ if [[ $cloning =~ [yY](es)* ]]; then
 	cp recipe-fix/slowrx.lwr pybombs/recipes/slowrx.lwr
 
 	# Copy startup script
-	cp templates-fix/install.sh pybombs/install.sh
+	cp templates-fix/install.bash pybombs/install.bash
 
 	# Copy templates
 	cp templates-fix/cmake.lwt pybombs/templates/cmake.lwt

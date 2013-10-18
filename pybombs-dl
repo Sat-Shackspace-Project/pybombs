@@ -7,6 +7,8 @@ if [ "$remove1" == "Yy" ]; then
 	# Remove Previous Packages
 	rm -rf /pybombs
 	rm -rf /gnuradio
+else
+	echo -en "Not removing\n\n"
 fi
 
 echo -n "Do you want clone pybombs and copy all fixes?: "
@@ -37,6 +39,8 @@ if [ "$cloning" == "Yy" ]; then
 	# Copy templates
 	cp /templates-fix/cmake.lwt /pybombs/templates/cmake.lwt
 	cp /templates-fix/autoconf.lwt /pybombs/templates/autoconf.lwt
+else
+	echo -en "Not cloning\n\n"
 fi
 
 sleep 5

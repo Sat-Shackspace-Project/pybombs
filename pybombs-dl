@@ -34,3 +34,5 @@ cp ./install.sh /pybombs/install.sh
 
 cp /templates-fix/cmake.lwt /pybombs/templates/cmake.lwt
 cp /templates-fix/autoconf.lwt /pybombs/templates/autoconf.lwt
+
+sleep 5

@@ -28,13 +28,13 @@ if [[ $cloning =~ [yY](es)* ]]; then
 	sleep 3
 
 	# Copy recipe fixes
-	cp /recipe-fix/armadillo.lwr /pybombs/recipes/armadillo.lwr
-	cp /recipe-fix/boost.lwr /pybombs/recipes/boost.lwr
-	cp /recipe-fix/gnuradio.lwr /pybombs/recipes/gnuradio.lwr
-	cp /recipe-fix/swig.lwr /pybombs/recipes/swig.lwr
-	cp /recipe-fix/uhd.lwr /pybombs/recipes/uhd.lwr
-	cp /recipe-fix/cmake.lwr /pybombs/recipes/cmake.lwr
-	cp /recipe-fix/gqrx.lwr /pybombs/recipes/gqrx.lwr
+	cp recipe-fix/armadillo.lwr /pybombs/recipes/armadillo.lwr
+	cp recipe-fix/boost.lwr /pybombs/recipes/boost.lwr
+	cp recipe-fix/gnuradio.lwr /pybombs/recipes/gnuradio.lwr
+	cp recipe-fix/swig.lwr /pybombs/recipes/swig.lwr
+	cp recipe-fix/uhd.lwr /pybombs/recipes/uhd.lwr
+	cp recipe-fix/cmake.lwr /pybombs/recipes/cmake.lwr
+	cp recipe-fix/gqrx.lwr /pybombs/recipes/gqrx.lwr
 	#cp /recipe-fix/gr-smartnet.lwr /pybombs/recipes/gr-smartnet.lwr
 
 	# Copy Addons
@@ -42,11 +42,11 @@ if [[ $cloning =~ [yY](es)* ]]; then
 	cp /recipe-fix/slowrx.lwr /pybombs/recipes/slowrx.lwr
 
 	# Copy startup script
-	cp ./install.sh /pybombs/install.sh
+	cp install.sh /pybombs/install.sh
 
 	# Copy templates
-	cp /templates-fix/cmake.lwt /pybombs/templates/cmake.lwt
-	cp /templates-fix/autoconf.lwt /pybombs/templates/autoconf.lwt
+	cp templates-fix/cmake.lwt /pybombs/templates/cmake.lwt
+	cp templates-fix/autoconf.lwt /pybombs/templates/autoconf.lwt
 else
 	echo -en "Not cloning\n\n"
 fi

@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# Add more lines below if any fixes or addons are available
+#
 
 echo -n "Do you want to remove your previous install?: "
 read remove1

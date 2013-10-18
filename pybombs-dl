@@ -53,4 +53,5 @@ else
 	echo -en "Not cloning\n\n"
 fi
 
+echo -en "Done.."
 sleep 5

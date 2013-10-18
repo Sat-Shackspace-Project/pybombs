@@ -20,7 +20,7 @@ echo -n "Where do you want gnuradio to be installed at? Example - /root/Desktop/
 read prefix1
 echo -n "Do you want gnuradio to install from source, deb package or both? Example - deb,src : "
 read satisfy1
-echo -n "Time the monitor thread waits (in seconds) before retrying downloads : "
+echo -n "Time the monitor thread waits (in seconds) before retrying downloads - Best time is 30 : "
 read time1
 
 touch config.dat

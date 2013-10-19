@@ -22,7 +22,7 @@
 
 ## General Information
 
-For original pybombs please refer to (https://github.com/pybombs/pybombs/) by Tim O`Shea - https://github.com/osh
+For original pybombs please refer to (https://github.com/pybombs/pybombs/)
 
 
 ---

@@ -1,5 +1,5 @@
 
-Sat Shackspace Project | Pybombs
+Shackspace Project | Pybombs
 =================================
 
 ![alt tag](http://i.imgur.com/blQndbj.jpg)

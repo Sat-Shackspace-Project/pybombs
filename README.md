@@ -2,7 +2,9 @@
 Sat Shackspace Project | Pybombs
 =================================
 
-- Fixes and Addons
+Last Update - 19/10/2013
+
+- Code fixes and addons
 - Any new fix to the original git will be dumped here
 - Currently tested distro; Ubuntu 12.10/12.04
 

@@ -1,0 +1,15 @@
+#
+# This file is part of PyBOMBS
+#
+# PySSTV. Generating Slow-scan Television transmissions
+#
+# Extra package by Phr34kz
+#
+
+category: common
+source: wget://https://pypi.python.org/packages/source/P/PySSTV/PySSTV-0.1.9.tar.gz
+install {
+    python ./setup.py install
+    echo -en '#!/bin/bash\n\npython -m pysstv -h\n\necho ""\necho "Usage: python -m pysstv -h"\necho ""' > $prefix/bin/pysstv
+    chmod 755 $prefix/bin/pysstv
+}

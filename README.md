@@ -16,7 +16,7 @@
 
 * Run './pybombs-dl' in terminal, once done, cd to Pybombs and run the './install.bash'
 * To install all of the other scripts, cd to Pybombs directory in terminal and type './pybomb install all'
-* Type './pybombs help' for more help
+* Type './pybombs help' for more commands
 
 
 ## General Information

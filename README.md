@@ -26,5 +26,3 @@ For original pybombs please refer to (https://github.com/pybombs/pybombs/)
 
 
 ---
-
-.. Managed By Phr34kz//Flacodev ..

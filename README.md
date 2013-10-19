@@ -14,9 +14,10 @@
 
 ## Build Instructions
 
-* Run './pybombs-dl' in terminal, once done, cd to pybombs and run the './install.bash'
-* To install all of the other scripts, cd to pybombs directory in terminal and type './pybomb install all'
-* Type './pybombs help' for more commands
+* Double click the './pybombs-dl' script to clone pybombs and/or delete your previous installation.
+* Open up your Terminal and cd to pybombs and type './install.bash' to install gnuradio
+* For other recipes, type in './pybomb install all'
+* './pybombs help' for more commands
 
 
 ## General Information

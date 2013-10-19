@@ -1,6 +1,6 @@
 
-Anonsat Pybombs
-================
+Sat Shackspace Project | Pybombs
+=================================
 
 - Fixes and Addons
 - Any new fix to the original git will be dumped here

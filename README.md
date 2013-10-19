@@ -14,14 +14,14 @@
 
 ## Build Instructions
 
-* Run './pybombs-dl' in terminal, once done, cd to Pybombs and run the './install.bash'
-* To install all of the other scripts, cd to Pybombs directory in terminal and type './pybomb install all'
+* Run './pybombs-dl' in terminal, once done, cd to pybombs and run the './install.bash'
+* To install all of the other scripts, cd to pybombs directory in terminal and type './pybomb install all'
 * Type './pybombs help' for more commands
 
 
 ## General Information
 
-For original Pybombs please refer to (https://github.com/pybombs/pybombs/) by Tim O'Shea - https://github.com/osh
+For original pybombs please refer to (https://github.com/pybombs/pybombs/) by Tim O'Shea - https://github.com/osh
 
 
 ##

@@ -10,7 +10,7 @@ Last Update - 19/10/2013
 - Any new fix to the original git will be dumped here
 - Currently tested distro; Ubuntu 12.10/12.04
 - Kali Linux are supported so probably won't need any fixing unless obsolete 
-  (http://www.kali.org/news/kali-linux-software-defined-radio-support/)
+  ( http://www.kali.org/news/kali-linux-software-defined-radio-support/ )
 
 Run ./pybombs-dl in terminal then cd to pybombs and run the ./install.bash
 

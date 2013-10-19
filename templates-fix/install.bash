@@ -5,7 +5,7 @@ echo "----------------------------------------"
 echo "                                        "
 echo "        {[   Evilzone Network   ]}      "
 echo "                                        "
-echo "            Phr34kz//Flacodev           "
+echo "                  Welcome               "
 echo "                                        "
 echo "----------------------------------------"
 sleep 1

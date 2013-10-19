@@ -34,8 +34,8 @@ echo "timeout = $time1" >> config.dat
 echo "cmakebuildtype = RelWithDebInfo" >> config.dat
 }
 
-if [ ! -f config.dat ]; then
-	echo "config.dat exists! continuing"
+if [ ! -f ./config.dat ]; then
+	echo "config.dat does not exists! continuing"
 	sleep 3
 	configuring
 fi

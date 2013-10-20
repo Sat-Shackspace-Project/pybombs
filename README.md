@@ -3,7 +3,7 @@
 
 ![alt tag](http://i.imgur.com/blQndbj.jpg)
 
-**Last Update - 19/10/2013**
+**Last Update - 19/10/2013 | Gnuradio Version 3.7.2**
 
 * Code fixes and addons
 * Any new fix to the original git will be dumped here
